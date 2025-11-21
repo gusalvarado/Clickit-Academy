@@ -22,4 +22,4 @@ rad.json
 TestResults.xml
 #tasks folder
 issues/
-mcp.json
+.cursor/
