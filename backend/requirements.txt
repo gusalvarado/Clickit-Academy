@@ -1,0 +1,20 @@
+# FastAPI and server
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+pydantic==2.9.2
+
+# LangGraph and LangChain
+langgraph==0.2.40
+langchain==0.3.7
+langchain-core==0.3.15
+langchain-openai==0.2.0
+
+# State persistence (using MemorySaver for now)
+# TODO: Add langgraph-checkpoint-sqlite for persistent storage
+
+# Logging and utilities
+python-json-logger==3.2.1
+
+# CORS is handled by FastAPI middleware
+
